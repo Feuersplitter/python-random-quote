@@ -1,4 +1,3 @@
-from os import sep
 import random
 
 def primary():
@@ -6,10 +5,8 @@ def primary():
   quotes = f.readlines()
   f.close()
 
-  last = 16
+  last = 19
   rnd = random.randint(0, last)
-
-  last = 16
   rnd2 = random.randint(0, last)
   
   print(quotes[rnd]),
